@@ -1,0 +1,153 @@
+/* 首頁 */
+.navbar {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+.icon {
+	display: flex;
+	justify-content: center;
+	padding-top: 0px;
+	margin-bottom: 15px;
+}
+
+.slogan p {
+	font-size: 55px;
+}
+
+/* 功效 */
+.title {
+	font-size:30px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.effect {
+	margin-top: 100px;
+}
+
+.effect img {
+	padding: auto auto;
+	margin-right: 100px;
+}
+
+.story {
+	padding: 85px 0;
+	padding-left: 25px;
+	font-size: 27px;
+}
+
+.effect img {
+	align-items: center;
+}
+
+/* 使用者見證 */
+.feedback {
+	margin-top: 65px;
+}
+
+.feedback img {
+	margin-top: 10px;
+}
+
+.afang {
+	margin-top: 150px;
+}
+
+.afang img {
+	width: 100%;
+}
+
+.jingo {
+	font-size: 25px;
+}
+
+.jingo p {
+	margin-top: 80px;
+}
+
+.jingo img {
+	width: 120%;
+}
+
+/* 聯絡 */
+.contact {
+	height:750px;
+	padding-top: 100px;
+	background-image: url(img/bkgrd.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: top center;
+	margin-top: 100px;
+	border-bottom-style: none;
+}
+
+.contact .title {
+	color: #ffffff;
+}
+
+.contact .form {
+	max-width: 600px;
+	margin:0 auto;
+	padding: 0 30px;
+	color: #91989F;
+}
+
+.form input {
+	height: 40px;
+	width: 100%;
+	background-color: #BDC0BA;
+	border-radius: 5px;
+	border:0px;
+	padding: 12px;
+	resize: vertical;
+	color: #000000;
+	margin:7.5px 0;
+}
+
+.form textarea {
+	height: 200px;
+	width: 100%;
+	background-color: #BDC0BA;
+	border-radius: 5px;
+	border:0px;
+	padding: 12px;
+	resize: vertical;
+	color: #000000;
+	margin:7.5px 0;
+	padding-bottom: 0px;
+}
+
+input[type=submit] {
+  background-color: #ABD0CE;
+  color: black;
+  cursor: pointer;
+  width: 100px!important;
+  height: 48px;
+  text-align: center;
+}
+
+input[type=submit]:hover {
+  background-color: #8ABCB8;
+}
+
+/* 頁尾 */
+footer {
+	background-color: white;
+	padding:20px 0;
+	color: #625656;
+	padding-bottom: 0px;
+}
+
+footer p {
+	line-height: 40px;
+}
+
+@media (min-width: 768px) {
+/*nav選單*/
+	.navbar{
+	padding-left:50px!important;
+	padding-right:50px!important; 
+}
+}
